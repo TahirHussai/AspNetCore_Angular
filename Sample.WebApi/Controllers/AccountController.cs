@@ -24,6 +24,7 @@ namespace SampleAngular.Controllers
     [ApiController]
     public class AccountController : ControllerBase
     {
+
         private readonly UserManager<UserPofile> userManager;
         private readonly SignInManager<UserPofile> signInManager;
         private readonly IMapper mapper;
